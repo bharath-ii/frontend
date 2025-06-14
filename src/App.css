@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff6e5;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #ffbf00;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+header img {
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+section {
+  margin-top: 20px;
+  max-width: 600px;
+  text-align: center;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff9100;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e67800;
+}
+
+img.bakery-preview {
+  width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}

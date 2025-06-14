@@ -1,0 +1,139 @@
+.ai-chat-container {
+  width: 100vw;
+  height: 100vh;
+  background: #fffbe6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.ai-chat-container h2 {
+  margin-bottom: 20px;
+  color: #b26e00;
+}
+
+.chat-box {
+  width: 100%;
+  max-width: 800px;
+  height: 65vh;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  margin: 10px 0;
+  padding: 12px 15px;
+  border-radius: 12px;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+
+.user {
+  background: #dcedc8;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.bot {
+  background: #ffe082;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.chat-input {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #ccc;
+}
+
+.chat-input button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  background-color: #ff9800;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  width: 10%;
+}
+
+.chat-input button:hover {
+  background-color: #ef6c00;
+}
+
+/* Responsive */
+/* @media (max-width: 768px) {
+  .chat-box {
+    height: 55vh;
+  }
+
+  .chat-input input {
+    font-size: 0.95rem;
+  }
+
+  .chat-input button {
+    font-size: 0.95rem;
+  }
+} */
+ /* Extra‑small devices (phones, ≤480px) */
+@media (max-width: 480px) {
+  /* Container: use min-height and 100% width to avoid mobile-UI issues */
+  .ai-chat-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  /* Heading smaller for phones */
+  .ai-chat-container h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+
+  /* Chat box slightly shorter and tighter padding */
+  .chat-box {
+    height: 50vh;
+    padding: 15px;
+  }
+
+  /* Messages: smaller text & tighter padding */
+  .message {
+    font-size: 0.9rem;
+    padding: 10px 12px;
+    max-width: 90%;
+  }
+
+  /* Inputs & buttons: full flex, remove fixed width */
+  .chat-input {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .chat-input input,
+  .chat-input button {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  /* Button: restore full-width, bump touch‑target */
+  .chat-input button {
+    width: 100%;
+  }
+}
+
