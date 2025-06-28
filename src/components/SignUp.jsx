@@ -105,8 +105,8 @@ function SignUp() {
           At OvenBot Bakery, we blend tradition with tech! Enjoy warm, handmade pastries with a smart twist.
           Powered by love—and a tiny robot. 🧁🤖
         </p>
-        <img className="bakery-preview centered" src="/images/bakery2.jpg" alt="Bakery View 1" />
-        <img className="bakery-preview centered" src="/images/bakery1.jpg" alt="Bakery View 2" />
+        <img className="bakery-preview centered" src="/images/pexels-erikscheel-95425.jpg" alt="Bakery View 1" />
+        <img className="bakery-preview centered" src="/images/pexels-shvetsa-3987213.jpg" alt="Bakery View 2" />
       </section>
 
       {/* Signup Form Section */}
