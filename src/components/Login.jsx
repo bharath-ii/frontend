@@ -60,7 +60,7 @@ function Login() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>Tharkuri Malig-[ai]</h1>
+        <h1>Ganesh Malligai Grocery Shop</h1>
         <img
           src="/images/robot_logo.png.jpeg"
           alt="AI Bot"

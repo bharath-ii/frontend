@@ -81,7 +81,7 @@ const [editForm, setEditForm] = useState({
     <div className="app-container">
       {/* Header */}
       <header className="header">
-  <h1>Tharkuri Malig-[ai]</h1>
+  <h1>Ganesh Malligai Grocery Shop</h1>
 
   {/* AI Bot Icon */}
   <img
